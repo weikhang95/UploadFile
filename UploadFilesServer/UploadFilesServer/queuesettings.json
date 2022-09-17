@@ -1,0 +1,6 @@
+﻿{
+  "QueueSettings": {
+    "QueueConnectionString": "Endpoint=sb://add-image.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=e9iq/XYeSfE+bvs9zWQ7xbgfJMmn2Hjlkb7YXxPs0X0=",
+    "QueueName": "add-image-data"
+  }
+} 

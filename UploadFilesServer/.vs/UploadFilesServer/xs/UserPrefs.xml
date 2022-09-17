@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{F72BBF28-5FC8-4CF5-A3D4-A13652D2E35E}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UploadFilesServer/queuesettings.json">
+    <Files>
+      <File FileName="UploadFilesServer/Properties/launchSettings.json" Line="11" Column="2" />
+      <File FileName="UploadFilesServer/Program.cs" Line="49" Column="1" />
+      <File FileName="UploadFilesServer/appsettings.json" Line="11" Column="34" />
+      <File FileName="UploadFilesServer/Controllers/FileController.cs" Line="25" Column="44" />
+      <File FileName="UploadFilesServer/Minio/MinioOptions.cs" Line="20" Column="2" />
+      <File FileName="UploadFilesServer/Models/Image.cs" Line="17" Column="24" />
+      <File FileName="UploadFilesServer/Context/DataContext.cs" Line="17" Column="1" />
+      <File FileName="UploadFilesServer/Controllers/ImagesController.cs" Line="98" Column="40" />
+      <File FileName="UploadFilesServer/Migrations/20220916132157_init.cs" Line="19" Column="21" />
+      <File FileName="UploadFilesServer/Migrations/DataContextModelSnapshot.cs" Line="35" Column="41" />
+      <File FileName="UploadFilesServer/MyBackgroundService2.cs" Line="51" Column="5" />
+      <File FileName="UploadFilesServer/MyBackgroundService.cs" Line="1" Column="1" />
+      <File FileName="UploadFilesServer/queuesettings.json" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UploadFilesServer" expanded="True">
+            <Node name="UploadFilesServer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="queuesettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>image</Value>
+          <Value>statObjectArgs</Value>
+          <Value>getObjectArgs</Value>
+          <Value>stream</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/weikhang95/Projects/aspnetcore-webapi-angular-file-download/UploadFilesServer/UploadFilesServer/Controllers/FileController.cs" relfile="UploadFilesServer/Controllers/FileController.cs" line="98" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UploadFilesServer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

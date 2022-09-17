@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/weikhang95/Projects/UploadFile/UploadFilesServer/UploadFilesServer/UploadFilesServer.csproj": {}
+  },
+  "projects": {
+    "/Users/weikhang95/Projects/UploadFile/UploadFilesServer/UploadFilesServer/UploadFilesServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/weikhang95/Projects/UploadFile/UploadFilesServer/UploadFilesServer/UploadFilesServer.csproj",
+        "projectName": "UploadFilesServer",
+        "projectPath": "/Users/weikhang95/Projects/UploadFile/UploadFilesServer/UploadFilesServer/UploadFilesServer.csproj",
+        "packagesPath": "/Users/weikhang95/.nuget/packages/",
+        "outputPath": "/Users/weikhang95/Projects/UploadFile/UploadFilesServer/UploadFilesServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/weikhang95/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.10.0, )"
+            },
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[4.0.5, )"
+            },
+            "Minio.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<article class="container">
+  <section class="create">
+    <h1>Add image</h1>
+    <form>
+      <div class="mb-3">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name" required="true"
+        placeholder="Enter your name" [(ngModel)]="name">
+      </div>
+      <div class="mb-3">
+        <label for="description">Description</label>
+        <input type="text" class="form-control" id="description" name="description" required="true"
+        placeholder="Enter your description" [(ngModel)]="description">
+      </div>
+      <app-upload (onUploadFinished)="uploadFinished($event)"></app-upload>
+        <div class="webcam-image" *ngIf="webcamImage">
+          <img [src]="webcamImage.imageAsDataUrl" />
+        </div>
+      <div class="row">
+        <div class="offset-md-5 col-md-2">
+          <button type="button" class="btn btn-primary" (click)="onCreate()">Create </button>
+        </div>
+      </div>
+    </form>
+    <div class="photos" *ngIf="photos.length > 0">
+      <h2>Available photos</h2>
+      <div *ngFor="let photo of photos" class="photo">
+          <img [src]="createImgPath(photo)" style="width:60px; height:60px;">
+          <app-download [fileUrl]="photo"></app-download>
+      </div>
+  </div>
+  </section>
+
+  <section class="users">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Image</th>
+          <th scope="col">Name</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let image of images">
+          <td><img [src]="image.imgPath" alt="profile picture" style="width:60px; height:60px;"></td>
+          <td>{{image.name}}</td>
+          <td>{{image.description}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</article>
